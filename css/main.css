@@ -1,5 +1,5 @@
 body {
-  padding-top: 150px;
+  padding-top: 160px;
 }
 
 .vbottom {
@@ -31,5 +31,6 @@ main {
   border-style: solid;
   border-color: black;
   border-radius: 20px;
+  padding: 4%;
 }
 

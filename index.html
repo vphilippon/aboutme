@@ -4,7 +4,7 @@
   <head>
     <title>Vincent Philippon - À propos de moi</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta property="og:title" content="Vincent Philippon">
+    <meta property="og:title" content="Vincent Philippon - À propos de moi">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://vphilippon.github.io/aboutme">
     <meta property="og:image" content="https://www.gravatar.com/avatar/c8ead975172355f98ca0c16744feefd3.png?s=300">
@@ -15,6 +15,14 @@
 
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/fr_CA/sdk.js#xfbml=1&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <header class="header">
       <div class="container">
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -79,7 +87,7 @@
         <div class="col-md-12 col-xs-12 text-center">
           <hr style="border-color: black;">
           <p>Facebook et Linkedin</p>
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fvphilippon.github.io%2Faboutme&amp;width&amp;layout=box_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=65" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:65px;" allowTransparency="true"></iframe>
+          <div class="fb-like" data-href="https://vphilippon.github.io/aboutme" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
         </div>
       </div>
     </main>

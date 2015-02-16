@@ -6,3 +6,7 @@
   js.src = "//connect.facebook.net/fr_CA/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+// LinkedIn SDK initialisation
+authorize: true;
+lang: fr_CA;

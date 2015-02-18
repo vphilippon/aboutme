@@ -2,6 +2,18 @@
   font-weight: bold;
 }
 
+.border-right {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: black;
+}
+
+.border-left {
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: black;
+}
+
 .vbottom {
   font-size: 0px;
 }
@@ -28,6 +40,7 @@
 
 body {
   padding-top: 160px;
+  background-color: #E6B265;
 }
 
 main {
@@ -36,5 +49,10 @@ main {
   border-color: black;
   border-radius: 20px;
   padding: 4%;
+  background-color: #FFFFC1;
+}
+
+hr {
+  border-color: black;
 }
 

@@ -2,18 +2,6 @@
   font-weight: bold;
 }
 
-.border-right {
-  border-right-width: 1px;
-  border-right-style: solid;
-  border-right-color: black;
-}
-
-.border-left {
-  border-left-width: 1px;
-  border-left-style: solid;
-  border-left-color: black;
-}
-
 .vbottom {
   font-size: 0px;
 }
@@ -54,5 +42,20 @@ main {
 
 hr {
   border-color: black;
+}
+
+/* Medium display */
+@media (min-width: 992px) {
+  .border-right {
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: black;
+  }
+
+  .border-left {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: black;
+  }
 }
 

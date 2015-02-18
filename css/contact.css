@@ -1,0 +1,4 @@
+form > p > input,
+form > p > textarea {
+  width: 100%;
+}

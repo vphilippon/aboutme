@@ -1,5 +1,5 @@
-body {
-  padding-top: 160px;
+.font-bold {
+  font-weight: bold;
 }
 
 .vbottom {
@@ -24,6 +24,10 @@ body {
   vertical-align: middle;
   float: none;
   font-size: 14px;
+}
+
+body {
+  padding-top: 160px;
 }
 
 main {

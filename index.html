@@ -58,23 +58,21 @@
                src="img/profile.jpg" alt="Ma photo personnelle">
         </div>
         <section id="intro" class="col-md-5 col-xs-12" style="border-right:1px solid #000;">
-          <h2>Bienvenue sur ma page</h2>
+          <h2>Un peu d'information sur moi...</h2>
           <p>
-            Introduction générale / Présentation sommaire.Lorem
-            ipsum dolor sit amet, consectetur adipiscing elit. In
-            ligula ex, placerat dignissim quam feugiat, consectetur
-            blandit quam. Nullam arcu urna, dapibus bibendum
-            lectus vel, tincidunt rutrum turpis. Ut egestas
-            bibendum metus. Vestibulum ullamcorper orci nisl, ac
-            mollis nunc venenatis sit amet. Morbi ultrices maximus
-            vulputate. Aenean blandit nunc elementum nisl
-            scelerisque eleifend. Morbi lacus ipsum, interdum
-            consectetur nisi vel, varius pretium diam. Nunc ut
-            vulputate nulla, sit amet iaculis ante.
+            Motivé par ma passion pour le domaine de l'informatique et ses défis, je
+            cumule plus de 7 ans d'expérience en programmation. Développement logiciel,
+            robotique, recherche, peu importe la nature du défi, je le relève.
+            Je suis une personne de tête et d'esprit qui a la joie de vivre, qui a
+            trouvé sa passion et qui en a fait sa carrière.
           </p>
         </section>
         <div id="quickcontact" class="col-md-3 col-xs-12">
-          <p>Stuff</p>
+          <ul>
+            <li>Occupation: Aux études</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/pub/vincent-philippon/84/4a6/534">Par ici</a></li>
+            <li>Github: <a href="https://github.com/vphilippon">Juste là</a></li>
+          </ul>
         </div>
       </div>
       <div id="socialmedia" class="row">
@@ -86,12 +84,20 @@
         </div>
       </div>
     </main>
-    <script src="js/sharing.js" type="text/javascript"></script>
     <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.imnjb.me/libs/bootstrap.autohidingnavbar/1.0.0/jquery.bootstrap-autohidingnavbar.min.js"></script>
-    <script>$("nav.navbar-fixed-top").autoHidingNavbar();</script>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/fr_CA/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      $("nav.navbar-fixed-top").autoHidingNavbar();
+    </script>
     
   </body>
 </html>

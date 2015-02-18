@@ -13,6 +13,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
 
   </head>
   <body>
@@ -53,14 +54,16 @@
     <main class="container">
       <div class="row vmiddle">
         <div id="info" class="col-md-4 col-xs-12">
-          <h2>Salut...</h2>
-          <p>Stuff</p>
+          <h2>Vincent Philippon</h2>
+          <address>Sherbrooke, QC, CA</address>
+          <p>LinkedIn: <a href="https://www.linkedin.com/pub/vincent-philippon/84/4a6/534">Par ici</a></p>
+          <p>Github: <a href="https://github.com/vphilippon">Juste là</a></p>
         </div>
         <div id="message" class="col-md-8 col-xs-12" style="border-left:1px solid #000;">
           <form action="https://fwdform.herokuapp.com/user/ef52767b-b106-4af7-a663-6d0c0359a271" method="POST">
-            <input type="text" name="name" placeholder="Nom"><br>
-            <input type="text" name="email" placeholder="Courriel"><br>
-            <textarea name="message" cols="40" rows="5" placeholder="Message"></textarea><br>
+            <p><input type="text" name="name" placeholder="Nom"></p>
+            <p><input type="text" name="email" placeholder="Courriel"</p>
+            <p><textarea name="message" cols="40" rows="5" placeholder="Message"></textarea></p>
             <input type="submit" value="Envoyer">
           </form>
         </div>
